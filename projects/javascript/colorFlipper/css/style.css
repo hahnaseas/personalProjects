@@ -1,0 +1,19 @@
+.nav-links {
+	list-style-type: none;
+	}
+	
+	a {
+	font-weight: bold;
+	}
+	
+body, h2 {
+	font-family: 'Georgia';
+	font-size: 18px;
+	text-align: center;
+}
+
+.btn {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 17px;
+}
