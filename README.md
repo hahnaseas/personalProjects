@@ -1,1 +1,1 @@
-Collection of projects I have worked
+Collection of projects I have worked on
