@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2024 Game List</title>
+  
+  <!-- styles -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- typeface css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Games I've Played This Year!</h1>
+  
+  <!-- completedGames slideshow -->
+  <div id="completedGames" class="gameList">
+    <div class="slideshow">
+      <div class="slide">
+        <img src="images/yakuza0.jpg" style="width: 50%;" alt="Yakuza 0">
+      </div>
+      <div class="slide">
+        <img src="images/persona3Reload.jpg" style="width: 50%;" alt="Persona 3 Reload">
+      </div>
+      <div class="slide">
+        <img src="images/talesofVesperia.jpg" style="width: 50%;" alt="Tales of Vesperia">
+      </div>
+      <div class="slide">
+        <img src="images/octopathTraveler.jpg" style="width: 50%;" alt="Octopath Traveler">
+      </div>
+	  <div class="slide">
+        <img src="images/yakuzaKiwami.jpg" style="width: 50%;" alt="Yakuza Kiwami">
+      </div>
+	  <div class="slide">
+	  <img src="images/omori.jpg" style="width: 55%;" alt="Omori">
+      </div>
+	  <div class="slide">
+	  <img src="images/catPresident.jpg" style="width: 55%;" alt="Cat President: A More Purrfect Union">
+	  </div>
+	  <div class="slide">
+	  <img src="images/milkInside.jpg" style="width: 55%;" alt="Milk Inside of a Bag of Milk">
+		</div>
+    </div>
+  
+    <!-- next & prev buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <!-- queuedGames for current games -->
+  <div id="queuedGames" class="gameList" style="display: none;">
+      <img src="images/gbfRelink.jpg" style="width: 55%;" alt="Granblue Fantasy Relink">
+	  <br>
+      <img src="images/yakuza3.jpg" style="width: 55%" alt="Yakuza 3">
+	  <br>
+      <img src="images/guiltygearStrive.jpg" style="width: 55%;" alt="Guilty Gear Strive">
+	  <br>
+	  <img src="images/apolloJustice.jpg" style="width: 55%;" alt="Apollo Justice: Ace Attorney Trilogy">
+    </div>
+	
+  <br><br>
+  
+  <h2>Currently Playing</h2>
+  <!-- queuedGames button -->
+  <button onclick="toggleGameList()">Games I'm Currently Playing</button>
+  
+  <br><br>
+  
+  <div class="container">
+  
+  <br>
+  
+  <h3>Why Play Video Games?</h3>
+  <!-- modal button -->
+  <button id="modalButton" style="background-color: #210124;">Click Me!</button>
+  <br><br><br>
+  <!--modal -->
+  <div id="gameModal" class="modal">
+	<!-- modal content-->
+	<div class="modal-content">
+	<span class="close">&times;</span>
+	<p style="text-align: center;">
+	Video games are fun!
+	</p>
+	</div>
+</div>
+</div>
+
+<br>
+  
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
